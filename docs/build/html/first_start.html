@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Регистрация продукта в программе “1С:Управление торговлей 8, ред 11.1” &mdash; Документация Алкогольная декларация для 1С (УТ 11.1), ред. 2.0. Документация 2.0.1</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="top" title="Документация Алкогольная декларация для 1С (УТ 11.1), ред. 2.0. Документация 2.0.1" href="index.html" />
+    <link rel="next" title="Обзор базовых концепций продукта" href="base_concept_review.html" />
+    <link rel="prev" title="О продукте" href="intro.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             accesskey="I">указатель</a></li>
+        <li class="right" >
+          <a href="base_concept_review.html" title="Обзор базовых концепций продукта"
+             accesskey="N">вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="О продукте"
+             accesskey="P">назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 11.1), ред. 2.0. Документация 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Регистрация продукта  в программе &#8220;1С:Управление торговлей 8, ред 11.1&#8221;<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Зарегистрировать продукт в конфигурации &#8220;1С:Управление торговлей 8, ред 11.1&#8221; достаточно просто. Необходимо выполнить несколько шагов в пользовательском режиме 1С:Предприятие, в соответствии с инструкциями ниже по тексту.</p>
+<ol class="arabic simple">
+<li>Перейдем в раздел &#8220;Администрирование&#8221;</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_1.png" src="_images/reg_1.png" />
+</div>
+<ol class="arabic simple" start="2">
+<li>В разделе администрирование найдем команду &#8220;Печатные формы, отчеты и обработки&#8221;, выполним её.</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_2.png" src="_images/reg_2.png" />
+</div>
+<ol class="arabic simple" start="3">
+<li>В открывшемся окне (см. рисунок ниже) воспользуемся командой &#8220;Дополнительные отчеты и обработки&#8221; для вызова одноименного справочника.</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_3.png" src="_images/reg_3.png" />
+</div>
+<ol class="arabic simple" start="4">
+<li>Если среди элементов справочника &#8220;Дополнительные отчеты и обработки&#8221; нет элемента с наименованием &#8220;Алкогольная декларация&#8221; его нужно создать, нажатием кнопки <strong>&#8220;Создать&#8221;</strong> на командной панели. Если элемент в справочнике уже есть тогда необходимо выделить его и нажать команду <strong>&#8220;Изменить&#8221;</strong>. Допустим у нас первый случай - продукта &#8220;Алкогольная декларация&#8221; в справочнике еще нет.</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_4.png" src="_images/reg_4.png" />
+</div>
+<ol class="arabic simple" start="5">
+<li>В окне проводника, открывшемся автоматически (поверх диалога редактирования элемента справочника &#8220;Дополнительные отчеты и обработки&#8221;, необходимо перейти в место расположения файла внешней обработки ( с расширением <strong>&#8221;.epf&#8221;</strong>) и выбрать его нажатием кнопки <strong>&#8220;Открыть&#8221;</strong>.</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_5.png" src="_images/reg_5.png" />
+</div>
+<ol class="arabic simple" start="6">
+<li>После того как данные обработки будут загружены в форму элемента справочника &#8220;Дополнительные отчеты и обработки&#8221; нам необходимо добавить обработку в соответствующий раздел программы - нам кажется наиболее подходящим раздел <strong>&#8220;Регламентированный учет&#8221;</strong>. Это делается по команде <strong>&#8220;Размещение&#8221;</strong></li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_6.png" src="_images/reg_6.png" />
+</div>
+<p>В открывшемся списке выберем раздел программы <strong>&#8220;Регламентированный учет&#8221;</strong></p>
+<div class="figure">
+<img alt="_images/reg_7.png" src="_images/reg_7.png" />
+</div>
+<ol class="arabic simple" start="8">
+<li>В табличной части формы на закладке <strong>&#8220;Команды&#8221;</strong> назначить пользователей для которых будет доступна алкогольная декларация в режиме быстрого доступа. Это поможет избежать дополнительных действий в интерфейсе каждого пользователя, которым необходимо назначить к использованию внешнюю обработку.</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_8.png" src="_images/reg_8.png" />
+</div>
+<ol class="arabic simple" start="9">
+<li>Проверим результат заполнения элемента справочника</li>
+</ol>
+<div class="figure">
+<img alt="_images/reg_9.png" src="_images/reg_9.png" />
+</div>
+<p>И если все в порядке  жмем кнопку <strong>&#8220;Записать и закрыть&#8221;</strong>. Далее переходим в раздел <strong>&#8220;Регламентированный учет&#8221; =&gt; &#8220;Дополнительные обработки&#8221;</strong></p>
+<div class="figure">
+<img alt="_images/reg_10.png" src="_images/reg_10.png" />
+</div>
+<p>В списке дополнительных обработок должен появиться элемент <strong>&#8220;Алкогольная декларация&#8221;</strong>. По команде <strong>&#8220;&#8221;Выполнить&#8221;&#8220;</strong> будет произведен запуск продукта.</p>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Если в окне <strong>&#8220;Дополнительные обработки&#8221;</strong> не отображается элемент с названием <strong>&#8220;Алкогольная декларация&#8221;</strong> то это может быть связано с тем, что текущему пользователю не установлен режим быстрого доступа для алкогольной декларации. Это можно исправить не выходя из окна <strong>&#8220;Дополнительные обработки&#8221;</strong> по команде <strong>&#8220;Настроить список&#8221;</strong> (в левом нижнем углу окна).</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Предыдущий раздел</h4>
+  <p class="topless"><a href="intro.html"
+                        title="предыдущая глава">О продукте</a></p>
+  <h4>Следующий раздел</h4>
+  <p class="topless"><a href="base_concept_review.html"
+                        title="следующая глава">Обзор базовых концепций продукта</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Эта страница</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/first_start.txt"
+            rel="nofollow">Исходный текст</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Искать" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Введите слова для поиска или имя модуля, класса или функции.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Навигация</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Алфавитный указатель"
+             >указатель</a></li>
+        <li class="right" >
+          <a href="base_concept_review.html" title="Обзор базовых концепций продукта"
+             >вперёд</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="О продукте"
+             >назад</a> |</li>
+        <li><a href="index.html">Документация Алкогольная декларация для 1С (УТ 11.1), ред. 2.0. Документация 2.0.1</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, ООО &#34;Бизнес Интеллект С&#34;.
+      Создано с помощью <a href="http://sphinx-doc.org/">Sphinx</a> 1.3b2.
+    </div>
+  </body>
+</html>
